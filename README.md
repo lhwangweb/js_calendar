@@ -4,9 +4,7 @@
 
 ## 參考資料
 1. [JavaScript 實務：利用 Date 物件完成萬年曆 Perpetual Calendar - 彭彭直播 at 2020/05/01](https://www.youtube.com/watch?v=Q2x84RdNVUY)
-
 2. [萬年曆](http://ant4js.blogspot.com/2009/01/calendar.html)
-
 3. [JavaScript - 萬年曆製作](https://dotblogs.com.tw/newmonkey48/2017/07/18/113407)
 
 ## 思路
