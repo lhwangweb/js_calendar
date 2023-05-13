@@ -3,10 +3,11 @@
 之前沒有思考過用 JS 實作萬年曆，這邊嘗試實作，print 在 console 上。
 
 ## 參考資料
-1.()[]
-2.
-3.
-4. 
+1. [JavaScript 實務：利用 Date 物件完成萬年曆 Perpetual Calendar - 彭彭直播 at 2020/05/01](https://www.youtube.com/watch?v=Q2x84RdNVUY)
+
+2. [萬年曆](http://ant4js.blogspot.com/2009/01/calendar.html)
+
+3. [JavaScript - 萬年曆製作](https://dotblogs.com.tw/newmonkey48/2017/07/18/113407)
 
 ## 思路
 
@@ -48,9 +49,9 @@ test_date; // Mon Apr 10 2023 00:00:00 GMT+0800
 
 ```
 
-3. 日曆的橫列數，應為 4~6
+3. 日曆的橫列數，必為 4~6 列，因此佈局規則很固定。
 
-4. 只要把想印出來的月份第一天 Date 物件產出，然後 getDay() 取得當天是星期幾，就知道他在第一 row 的位置了
+4. 把想印出來的月份第一天 Date 物件產出，然後 getDay() 取得當天是星期幾，就知道在第一列的第幾個位置。
 
 5. 之後依序把整個日曆填滿即可。
 
